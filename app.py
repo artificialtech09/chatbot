@@ -21,7 +21,7 @@ os.environ["GOOGLE_API_KEY"] = "AIzaSyCWkyqD2szVWw4eIhgabDi8Z1xf9ZHMpoE"
 
 
 # Load and process the PDF
-doc_path = "IICI_Chatbot_Requirement_updated.pdf"
+doc_path = "IICI_Chatbot_Requirement_updated_2.pdf"
 loader = PyPDFLoader(doc_path)
 pages = loader.load()
 

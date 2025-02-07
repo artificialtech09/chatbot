@@ -17,7 +17,7 @@ if not api_key:
     st.error("Google API Key not found. Please set it in your environment variables.")
     st.stop()
 
-os.environ["GOOGLE_API_KEY"] = "AIzaSyCWkyqD2szVWw4eIhgabDi8Z1xf9ZHMpoE"
+os.environ["GOOGLE_API_KEY"] = "ADD"
 
 
 # Load and process the PDF

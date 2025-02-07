@@ -12,7 +12,7 @@ import requests
 
 
 # Set API key
-api_key = "AIzaSyCn96Y2VGBGN4ANN2X3hUXbkfWcOPqiY-g"
+api_key = "GOOGLE_API"
 if not api_key:
     st.error("Google API Key not found. Please set it in your environment variables.")
     st.stop()
